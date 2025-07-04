@@ -28,35 +28,35 @@ Jarvis is a simple yet powerful voice-controlled AI assistant built in Python. I
 
 ## 🛠️ Requirements
 
-Install the dependencies using:
+# Install the dependencies using:
 
 ```bash
 pip install -r requirements.txt
 
 ```
 
-Install PyAudio for microphone access:
+# Install PyAudio for microphone access:
 
 ```bash
 pip install pyaudio
 ```
-If you face issues installing pyaudio on Windows:
+# If you face issues installing pyaudio on Windows:
 
 ```bash
 pip install pipwin
 pipwin install pyaudio
 ```
 ## 🔐 Setup
-1. Get Gemini API Key
-Visit Google AI Studio and generate your API key.
+# 1. Get Gemini API Key
+- Visit Google AI Studio and generate your API key.
 
-Replace the key in your script like this:
+- Replace the key in your script like this:
 ```bash
 genai.configure(api_key="YOUR_API_KEY_HERE")
 ```
-2. Create a musicLibrary.py file
+# 2. Create a musicLibrary.py file
 
-This should be a dictionary mapping song names to YouTube links.
+- This should be a dictionary mapping song names to YouTube links.
 
 Example:
 
