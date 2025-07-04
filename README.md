@@ -32,3 +32,63 @@ Install the dependencies using:
 
 ```bash
 pip install -r requirements.txt
+
+```
+
+Install PyAudio for microphone access:
+
+bash
+Copy
+Edit
+pip install pyaudio
+If you face issues installing pyaudio on Windows:
+
+bash
+Copy
+Edit
+pip install pipwin
+pipwin install pyaudio
+🔐 Setup
+1. Get Gemini API Key
+Visit Google AI Studio and generate your API key.
+
+Replace the key in your script like this:
+
+python
+Copy
+Edit
+genai.configure(api_key="YOUR_API_KEY_HERE")
+2. Create a musicLibrary.py file
+This should be a dictionary mapping song names to YouTube links.
+
+Example:
+
+python
+Copy
+Edit
+# musicLibrary.py
+music = {
+    "believer": "https://www.youtube.com/watch?v=7wtfhZwyrcc",
+    "shapeofyou": "https://www.youtube.com/watch?v=JGwWNGJdvx8"
+}
+🧪 How to Run
+bash
+Copy
+Edit
+python your_script_name.py
+Then say:
+
+nginx
+Copy
+Edit
+Jarvis
+And speak your command:
+
+Open Google
+
+Play believer
+
+Tell me the news
+
+What is quantum computing?
+
