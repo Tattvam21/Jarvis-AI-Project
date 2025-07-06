@@ -1,6 +1,5 @@
 Here’s a professional `README.md` file for your voice assistant project named **Jarvis** that integrates voice recognition, Spotify control, and AI response using Google's Gemini:
 
----
 
 # 🎙️ Jarvis – Voice Assistant with Spotify & AI Integration
 
@@ -11,7 +10,6 @@ Jarvis is a lightweight Python-based voice assistant that responds to your voice
 * Play songs on Spotify in your browser
 * Answer general queries using Google's Gemini AI
 
----
 
 ## 🚀 Features
 
@@ -21,7 +19,6 @@ Jarvis is a lightweight Python-based voice assistant that responds to your voice
 * 🎵 **Spotify Integration:** Play your favorite song in your browser.
 * 🤖 **AI Chat:** Ask anything—Jarvis responds with Gemini AI.
 
----
 
 ## 📁 File Structure
 
@@ -32,7 +29,6 @@ Jarvis is a lightweight Python-based voice assistant that responds to your voice
 ├── tempCodeRunnerFile.py  # Testing file (optional)
 ```
 
----
 
 ## 🛠️ Requirements
 
@@ -52,7 +48,6 @@ spotipy
 google-generativeai
 ```
 
----
 
 ## 🔐 Setup
 
@@ -74,7 +69,6 @@ google-generativeai
 genai.configure(api_key="YOUR_API_KEY")
 ```
 
----
 
 ## 🎤 How to Use
 
@@ -91,7 +85,6 @@ genai.configure(api_key="YOUR_API_KEY")
    * `Tell me the news`
    * `What's the capital of France?`
 
----
 
 ## 📌 Notes
 
@@ -99,6 +92,5 @@ genai.configure(api_key="YOUR_API_KEY")
 * Internet connection is required for AI responses and Spotify playback.
 * Works best on **Windows** due to `sapi5` speech engine.
 
----
 
 
