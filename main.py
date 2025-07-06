@@ -43,7 +43,7 @@ def processCommand(c):
     elif "open youtube" in c:
         webbrowser.open("https://www.youtube.com/")
     elif "news" in c:
-        r = requests.get("https://newsapi.org/v2/top-headlines?country=us&apiKey=c1e378221fca49d88ccab13b353a67c0")
+        r = requests.get("https://newsapi.org/v2/top-headlines?country=us&apiKey=YOUR API KEY")
         print("Telling news")
 
         if r.status_code == 200:
