@@ -14,7 +14,7 @@ def speak(text):
     engine.runAndWait()
 
 def aiProcess(command):
-    genai.configure(api_key="AIzaSyCagddUVTNRt-OGHYe-n0OERdQshSzvArM")
+    genai.configure(api_key="ADD YOUR GEMINI API")
     model = genai.GenerativeModel('gemini-2.5-flash')
     chat = model.start_chat(history=[])
 
