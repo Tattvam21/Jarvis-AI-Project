@@ -5,8 +5,8 @@ from spotipy.oauth2 import SpotifyClientCredentials
 import webbrowser
 
 sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(
-    client_id="0a2bef201251435fb7e7c7e44d47fb2d",
-    client_secret="efcfa287d1dc44d88bbbd3615e6a1a0e"
+    client_id="ADD YOUR CLIENT ID",
+    client_secret="ADD YOUR SECRET KEY"
 ))
 
 def play_song_in_browser(song_name):
