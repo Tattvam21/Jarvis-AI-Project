@@ -1,6 +1,0 @@
-speechrecognition
-pyttsx3
-requests
-google-generativeai
-pyaudio
-pipwin
