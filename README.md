@@ -1,4 +1,4 @@
-Here’s a professional `README.md` file for your voice assistant project named **Jarvis** that integrates voice recognition, Spotify control, and AI response using Google's Gemini:
+
 
 
 # 🎙️ Jarvis – Voice Assistant with Spotify & AI Integration
